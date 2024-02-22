@@ -16,3 +16,4 @@ def detailOfProduct(id):
     data = GetSingleProducts(id)
 
     return render_template('products/detail.html', detailOfPorduct = data)
+    #test commitu
