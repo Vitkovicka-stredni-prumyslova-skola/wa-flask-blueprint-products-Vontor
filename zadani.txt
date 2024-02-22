@@ -1,2 +1,10 @@
 
 https://startbootstrap.com/templates/ecommerce
+
+Zadání
+    Přidejte "feautures", která na stránce s detailem produktu zobrazí 4 produkty ze stejné kategorie ve smyslu "mohlo by se Vám hodit", místo zobrazení je v dolní části stránky.
+
+Analýza
+    Po zpracování dotazu z API, získáte seznam, který obsahuje jednotlivé produkty. Každý produkt obsahuje položku s názvem "category" podle které si vyselektují max 4 produkty ze stejné kategorie, jako je zobrazený detail produktu.  Max 4 produkty znamená, že se zobrazí je jeden dva, tři, čtyři nebo žádný. Nebude se ve výpisu zobrazovat produkt, který je již zobrazen v detailu. 
+    Vybrané produkty uložíte jako seznam a předáte webové stránce. Nebudeme tedy posílat celý seznam všech produktů, snažíme snižovat datovou náročnost aplikace.
+    Jelikož selekce produktů nesouvisí s API, od té už máte seznam produktů, tak všechny potřebné metody pro tuto práci budou v souboru "products.py".
